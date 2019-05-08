@@ -1,0 +1,1069 @@
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+
+}
+
+
+body {
+
+	font-family: Lato;
+	font-weight: bolder;
+}
+
+
+
+
+#navbar {
+	color: #fff;
+	background-color: #000;
+}
+
+
+
+/*-----------------first-page-----------*/
+
+.first-page {
+
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 950px;
+
+}
+
+h1 {
+	text-align: left;
+	font-size: 6em;
+	color: #fff;
+	padding-top: 260px;
+	margin-left: 50px;
+
+}
+
+hr {
+	width: 700px;
+	height: 5px;
+	margin-left: 50px;
+	background-color: #3CDDEC;
+}
+
+
+.one {
+	padding: 5px;
+	font-size: 1em;
+	color: #fff;
+	margin-left: 50px;
+
+}
+
+
+
+/*-----------------second-page-----------*/
+
+.second-page {
+	height: 950px;
+	padding-top: 150px;
+}
+
+img {
+
+	height: 600px;
+	width: 100%;
+	border: 3px solid #fff;
+}
+
+
+
+
+.sec-hr {
+	width: 300px;
+	height: 5px;
+	margin-left: 1px;
+	background-color: #3CDDEC;
+}
+
+
+.about {
+	padding-top: 200px;
+}
+
+
+
+/*-----------------third-page-----------*/
+
+.third-page {
+	height: 950px;
+	background-color: #3CDDEC;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding-top: 150px;
+
+
+}
+
+.pad {
+	padding-top: 150px;
+}
+
+
+
+.WTE {
+	padding: 10px;
+	border-bottom: 5px solid #fff;
+
+
+}
+
+
+
+.fas {
+	padding: 25px;
+
+	text-align: center;
+	text-decoration: none;
+	margin: 8px 5px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+
+
+
+
+/*-----------------forth-page-----------*/
+
+
+
+
+.forth-page {
+	height: 950px;
+	background-color: #fff;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	padding-top: 150px;
+
+
+}
+
+.NU {
+	padding: 10px;
+	border-bottom: 5px solid #3CDDEC;
+}
+
+
+.fa {
+	padding: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin: 8px 5px;
+	border-radius: 50%;
+	background-color: #3CDDEC;
+}
+
+
+
+/*-----------------fifth-page-----------*/
+
+
+
+
+.fifth-page {
+	color: #fff;
+	background-image: url("background2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 970px;
+	text-align: center;
+	padding-top: 350px;
+
+}
+
+
+.contact {
+	border-bottom: 5px #3CDDEC solid;
+	border-width: 2px;
+}
+
+
+
+
+/*----------------logo-page-----------*/
+
+
+
+
+
+
+/*--------------first--logo-page-----------*/
+
+
+.first-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+	background: repeating-linear-gradient(45deg, transparent,
+		transparent 8px,
+		#3CDDEC 8px,
+		#3CDDEC 15px);
+
+	height: 200px;
+	width: 200px;
+	,
+	);
+}
+
+
+.sec-first-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 70px;
+	right: 88px;
+
+	background: repeating-linear-gradient(45deg, transparent,
+		transparent 8px,
+		#fff 8px,
+		#fff 15px);
+	height: 150px;
+	width: 150px;
+	,
+	);
+}
+
+
+/*------------second----logo-page-----------*/
+
+
+
+.second-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 450px;
+	right: 900px;
+	z-index: -1;
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#3CDDEC 8px,
+		#3CDDEC 15px);
+
+	height: 200px;
+	width: 200px;
+
+	,
+	);
+}
+
+
+.sec-second-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 523px;
+	right: 880px;
+	z-index: -1;
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#000 8px,
+		#000 15px);
+	height: 150px;
+	width: 150px;
+
+	,
+	);
+}
+
+
+
+/*------------third----logo-page-----------*/
+
+
+.left-third-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: -120px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#fff 8px,
+		#fff 15px);
+
+	height: 250px;
+	width: 250px;
+	,
+	);
+}
+
+
+.left-sec-third-circle {
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 83px;
+	left: -20px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#000 8px,
+		#000 15px);
+	height: 180px;
+	width: 180px;
+	,
+	);
+}
+
+
+
+.right-third-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: -80px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#fff 8px,
+		#fff 15px);
+
+	height: 250px;
+	width: 250px;
+	,
+	);
+}
+
+
+.right-sec-third-circle {
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	top: 76px;
+	right: 20px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#000 8px,
+		#000 15px);
+	height: 180px;
+	width: 180px;
+	,
+	);
+}
+
+
+
+/*------------forth----logo-page-----------*/
+
+.left-forth-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: -120px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#3CDDEC 8px,
+		#3CDDEC 15px);
+
+	height: 250px;
+	width: 250px;
+	,
+	);
+}
+
+
+.left-sec-forth-circle {
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 83px;
+	left: -20px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#000 8px,
+		#000 15px);
+	height: 180px;
+	width: 180px;
+	,
+	);
+}
+
+
+
+.right-forth-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: -80px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#3CDDEC 8px,
+		#3CDDEC 15px);
+
+	height: 250px;
+	width: 250px;
+	,
+	);
+}
+
+
+.right-sec-forth-circle {
+	background-color: #000;
+	border-radius: 50%;
+	position: absolute;
+	top: 75px;
+	right: 20px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#000 8px,
+		#000 15px);
+	height: 180px;
+	width: 180px;
+	,
+	);
+}
+
+
+
+/*------------fifth----logo-page-----------*/
+
+
+
+
+
+.fifth-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 425px;
+	left: -80px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#3CDDEC 8px,
+		#3CDDEC 15px);
+
+	height: 250px;
+	width: 250px;
+	,
+	);
+}
+
+
+.sec-fifth-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 516px;
+	left: 28px;
+
+	background: repeating-linear-gradient(-45deg, transparent,
+		transparent 8px,
+		#fff 8px,
+		#fff 15px);
+	height: 180px;
+	width: 180px;
+	,
+	);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+
+	* {
+		padding: 0px;
+		margin: 0px;
+		overflow-x: hidden;
+
+	}
+
+
+	body {
+
+		font-family: Lato;
+		font-weight: bolder;
+	}
+
+
+
+
+	#navbar {
+		color: #fff;
+		background-color: #000;
+		
+	}
+	
+
+
+
+
+	/*-----------------first-page-----------*/
+
+	.first-page {
+		height: 600px;
+		background-image: url("background.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+
+	}
+
+	h1 {
+		text-align: left;
+		font-size: 2em;
+		color: #fff;
+		padding-top: 260px;
+		margin-left: 50px;
+
+	}
+
+	hr {
+		width: 170px;
+		height: 5px;
+		margin-left: 50px;
+		background-color: #3CDDEC;
+	}
+
+
+	.one {
+		padding: 5px;
+		font-size: 1em;
+		color: #fff;
+		margin-left: 50px;
+
+	}
+
+
+
+	/*-----------------second-page-----------*/
+
+	.second-page {
+		height: 950px;
+		padding-top: 10px;
+	}
+
+	img {
+
+		height: 260px;
+		width: 100%;
+		border: 3px solid #fff;
+	}
+
+
+
+
+	.sec-hr {
+		width: 300px;
+		height: 5px;
+		margin-left: 20px;
+		background-color: #3CDDEC;
+	}
+
+
+	.about,
+	h2,
+	p,
+	h4 {
+		padding-top: 10px;
+		font-size: 15px;
+		margin-left: 20px;
+	}
+
+
+
+	/*-----------------third-page-----------*/
+
+	.third-page {
+
+		background-color: #3CDDEC;
+		background-size: cover;
+		text-align: center;
+		justify-content: center;
+		align-content: center;
+		padding-top: 10px;
+
+
+	}
+
+	.pad {
+		padding-top: 10px;
+	}
+
+
+
+	.WTE {
+		padding: 10px;
+		border-bottom: none;
+
+	}
+
+
+
+	.fas {
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		margin: 2px 1px;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+
+
+
+
+
+	/*-----------------forth-page-----------*/
+
+
+
+
+	.forth-page {
+
+		background-color: #fff;
+		background-size: cover;
+		text-align: center;
+		justify-content: center;
+		align-content: center;
+		padding-top: 250px;
+
+
+	}
+
+	.NU {
+		padding: 10px;
+		border-bottom: none;
+	}
+
+
+	.fa {
+		padding: 15px;
+		text-align: center;
+		text-decoration: none;
+		margin: 2px 1px;
+		border-radius: 50%;
+		background-color: #3CDDEC;
+	}
+
+
+
+	/*-----------------fifth-page-----------*/
+
+
+
+
+	.fifth-page {
+		color: #fff;
+		background-image: url("background2.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 970px;
+		text-align: center;
+		padding-top: 550px;
+
+	}
+
+
+	.contact {
+		color: #000;
+		border-bottom: none;
+		border-width: 4px;
+	}
+
+
+
+
+	/*----------------logo-page-----------*/
+
+
+
+
+
+
+	/*--------------first--logo-page-----------*/
+
+
+	.first-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+
+		background: repeating-linear-gradient(45deg, transparent,
+			transparent 8px,
+			#3CDDEC 8px,
+			#3CDDEC 15px);
+
+		height: 150px;
+		width: 150px;
+		,
+		);
+	}
+
+
+	.sec-first-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 70px;
+		right: 88px;
+
+		background: repeating-linear-gradient(45deg, transparent,
+			transparent 8px,
+			#fff 8px,
+			#fff 15px);
+		height: 100px;
+		width: 100px;
+		,
+		);
+	}
+
+
+	/*------------second----logo-page-----------*/
+
+
+
+	.second-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 450px;
+		right: 900px;
+		z-index: -1;
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#3CDDEC 8px,
+			#3CDDEC 15px);
+
+		height: 200px;
+		width: 200px;
+
+		,
+		);
+	}
+
+
+	.sec-second-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 523px;
+		right: 880px;
+		z-index: -1;
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#000 8px,
+			#000 15px);
+		height: 150px;
+		width: 150px;
+
+		,
+		);
+	}
+
+
+
+	/*------------third----logo-page-----------*/
+
+
+	.left-third-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 0;
+		left: -120px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#fff 8px,
+			#fff 15px);
+
+		height: 250px;
+		width: 250px;
+		,
+		);
+	}
+
+
+	.left-sec-third-circle {
+		background-color: #000;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 83px;
+		left: -20px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#000 8px,
+			#000 15px);
+		height: 180px;
+		width: 180px;
+		,
+		);
+	}
+
+
+
+	.right-third-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		right: -140px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#fff 8px,
+			#fff 15px);
+
+		height: 250px;
+		width: 250px;
+		,
+		);
+	}
+
+
+	.right-sec-third-circle {
+		background-color: #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 76px;
+		right: -40px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#000 8px,
+			#000 15px);
+		height: 180px;
+		width: 180px;
+		,
+		);
+	}
+
+
+
+	/*------------forth----logo-page-----------*/
+
+	.left-forth-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 0;
+		left: -160px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#3CDDEC 8px,
+			#3CDDEC 15px);
+
+		height: 250px;
+		width: 250px;
+		,
+		);
+	}
+
+
+	.left-sec-forth-circle {
+		background-color: #000;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 83px;
+		left: -60px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#000 8px,
+			#000 15px);
+		height: 180px;
+		width: 180px;
+		,
+		);
+	}
+
+
+
+	.right-forth-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		right: -160px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#3CDDEC 8px,
+			#3CDDEC 15px);
+
+		height: 250px;
+		width: 250px;
+		,
+		);
+	}
+
+
+	.right-sec-forth-circle {
+		background-color: #000;
+		border-radius: 50%;
+		position: absolute;
+		top: 75px;
+		right: -60px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#000 8px,
+			#000 15px);
+		height: 180px;
+		width: 180px;
+		,
+		);
+	}
+
+
+
+	/*------------fifth----logo-page-----------*/
+
+
+
+
+
+	.fifth-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 425px;
+		left: -80px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#3CDDEC 8px,
+			#3CDDEC 15px);
+
+		height: 250px;
+		width: 250px;
+		,
+		);
+	}
+
+
+	.sec-fifth-circle {
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 516px;
+		left: 28px;
+
+		background: repeating-linear-gradient(-45deg, transparent,
+			transparent 8px,
+			#fff 8px,
+			#fff 15px);
+		height: 180px;
+		width: 180px;
+		,
+		);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
